@@ -1,0 +1,8 @@
+#All paths in this document should be relative to working_directory, or absolute.
+working_directory = './'
+
+cores = -1
+output = 'test_output'
+temp_dir = 'tmp'
+
+
