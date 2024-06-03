@@ -54,17 +54,6 @@ class options():
 def validate_inputs(args):
     pass
 
-def setup_workspace(args):
-    import shutil
-    
-    os.chdir(args.working_directory)
-    os.mkdir(args.output)
-    os.mkdir(args.temp_dir)
-    
-    shutil.copy2(args.optfile, os.path.join(args.output, os.path.basename(args.optfile)))
-    
-    #I'll need to do substantially more work here to set up the initial temporary directories
-    
 
 
 
