@@ -1,0 +1,13 @@
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - pandas
+  - numpy
+  - scipy
+  - sortedcontainers
+  - flashlfq
+  - pymzml
+  - percolator
+  - python
+  - pip
