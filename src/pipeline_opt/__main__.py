@@ -17,11 +17,15 @@ args = options()
 
 validate_inputs(args)
 setup_workspace(args)
-
-#read input
-#intiialize worker pool
-
-#
-
+#preprocess_mzml(args)
+    #this should produce a scan # -> RT mapping for the percolator/FlashLFQ adapter
+    #or find a premade one listed in options.toml
+#job_factory = load_parameters(args)
+    #this object stores the available options for each parameter
+    #and creates new jobs from completed
+#completed = load_previous_save(args)
+    #if restarting from a previous run this should read in the saved outcomes
+    #otherwise initialize an empty completed runs object
+#workers = initialize_workers(args)
 
 
